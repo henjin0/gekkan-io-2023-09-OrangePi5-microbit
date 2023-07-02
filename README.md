@@ -72,6 +72,7 @@ scp <converted_keras内までのフォルダパス>/labels.txt orangepi@<OrangeP
 
 ### 8. node.js(v14.21.3)をインストールする。
 下記の記事などを参考に、nvm経由でインストールするとなお良し。
+
 https://maku77.github.io/nodejs/env/nvm.html
 
 ### 9. node-redインストール
