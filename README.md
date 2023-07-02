@@ -1,6 +1,8 @@
 # gekkan-io-2023-09-OrangePi5-microbit
 
 ## 動作環境(OrangePi5側)
+- OS: debian1.1.4(bullseye)
+- 使用カメラ: ov13850
 - node.js: v14.21.3
 - npm: npm@6.14.18
 - Node-RED v3.0.2 (npm install)
@@ -21,7 +23,7 @@ https://amzn.asia/d/5rllfbl
 - [OrangePi5(debian)でホスト名.localでSSHできるようにする](https://qiita.com/Inoue_Minoru/items/60b0c3b7a7abe03a500c)
 
 ### 2.  カメラの設定
-下記のQiita記事の手順を実施
+下記のQiita記事の手順を実施した。また、今回はカメラを自立させやすい都合からcam2コネクタを使いました。
 - [OrangePi5(debian)のカメラコネクタからOV13850を使ってみる](https://qiita.com/Inoue_Minoru/items/8fde94574657e3796f34)
 
 ### 3. UARTの設定
